@@ -1,0 +1,24 @@
+{
+  "name": "mongo-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-conomic/mongo-map"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-conomic/mongo-map/issues"
+  },
+  "homepage": "https://github.com/e-conomic/mongo-map",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "mocha-jshint": "^0.0.9",
+    "mongojs": "^0.18.2"
+  }
+}
