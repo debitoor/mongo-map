@@ -1,6 +1,6 @@
 # mongo-map
 
-When working with [mongoDB Aggregation Framework](http://docs.mongodb.org/manual/aggregation) sometimes you need to transform a filed based on plain js map object.
+When working with [mongoDB Aggregation Framework](http://docs.mongodb.org/manual/aggregation) sometimes you need to transform a field based on plain js map object.
 Consider you have:
 ```javascript
 var map = {
@@ -28,7 +28,7 @@ db.myCollection.aggregate([
 	} }
 ]);
 ```
-Here `getInMap` expands your map object into a balanced search tree that aggregation framework uses to look up your key.
+Here `getInMap` expands your map object into a balanced search tree that aggregation framework uses to efficiently look up your key.
 
 
 ## License
