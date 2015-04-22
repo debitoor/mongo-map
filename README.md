@@ -1,7 +1,6 @@
 # mongo-map [![Build Status](https://travis-ci.org/e-conomic/mongo-map.svg?branch=master)](https://travis-ci.org/e-conomic/mongo-map)
 
-When working with [mongoDB Aggregation Framework](http://docs.mongodb.org/manual/aggregation) sometimes you need to transform a field based on plain js map object.
-Consider you have:
+When working with [mongoDB Aggregation Framework](http://docs.mongodb.org/manual/aggregation) sometimes you need to transform a field based on plain js map object. Consider you have:
 ```javascript
 var map = {
 	forThisKey: 'retrun this value',
