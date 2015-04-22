@@ -1,7 +1,12 @@
 {
   "name": "mongo-map",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mongo Aggregation Framework helper function to perform lookup in js map",
+  "keywords": [
+    "mongo",
+    "aggregation",
+    "map"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
